@@ -1,0 +1,39 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color-white);
+  padding: 30px;
+}
+
+.login__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-grey);
+  cursor: pointer;
+}
+
+.login__google {
+  background-color: var(--color-blue);
+}
+
+.login div {
+  margin-top: 7px;
+}

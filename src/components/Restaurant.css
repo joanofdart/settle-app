@@ -1,0 +1,33 @@
+.logo {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+}
+
+.name {
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.chip {
+  padding: 5px 10px;
+  background-color: var(--color-green);
+  margin: 2px 0 4px;
+  width: fit-content;
+  box-shadow: 2px 2px;
+  border-radius: 10px;
+
+  align-self: center;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  text-align: left;
+}
